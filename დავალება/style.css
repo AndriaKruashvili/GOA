@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* აქ background color-ი შევცვალე სხვადასხვა ადგილებში */
+  body {
+    background-color: #cc0202;
+    font-family: arial, Helvetica ;
+  }
+  
+  /* აქ header ელემენტს შევუცვალე ფერი და გავსტილე */
+  header {
+    background-color: #080c35;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* აქ header ფოტოს ანუ ლოგოს გავუწერე max-width-ი 100% */
+  header img {
+    max-width: 100%;
+  }
+  
+  /* აქ nav ტაგს ანუ ერთი ფეიჯიდან მეორეზე ნავიგაციის ტაგს შევუცვალე ფერი და პადინგი და გავცენტრე */
+  nav {
+    background-color: #0d493a;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* აქ ნავიგაციის ლინკებს შევუცვალე მარჯინი და პადინგი და li თაგი გადავაქციე inline ელემენტად */
+ 
+  nav li {
+    display: inline;
+    margin-right: 10px; }
+  
+         a {
+    color: #c3d615;
+    text-decoration: none;
+    padding: 10px;
+         }
+
+  
+  /* html კოდში მთავარი ინფორმაცია ჩავსვი main თაგში ამ შემთხვევაში ლინკები, აქ კი მას ზომა და პადინგი შევუცვალე */
+  main {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* აქ h1 ელემენტი გავცენტრე  */
+  h1 {
+    text-align: center}
+    
+    table {
+      /* აქ ცხრილს გავუწერეწ border collapse-ი რათა ცხრილის განყოფილებელი გაერთიანებულიყო და საერთო ბორდერი ქონოდათ*/
+      border-collapse: collapse;
+      width: 1300px;
+      cursor: text;
+    }
+    td, th {
+      border:3px solid yellow;
+      text-align: center;
+      padding: 10px;
+    }
+    th { 
+      background-color: rgb(12, 190, 71)
+    }
+    tr:nth-child(2) {
+      background-color: rgb(218, 81, 2)
+    }
+    tr:nth-child(3) {
+      background-color: rgb(6, 199, 135)
+    }
+    tr:nth-child(4) {
+      background-color: rgb(107, 100, 2);
+    }
+    .table-center {
+      display: flex;
+      justify-content: center;
+    }
+div {
+  margin-bottom: 50px;
+}
+
+ .links {
+  text-decoration: none;
+  color:#c3d615;
+ }
+ .spacing {
+ letter-spacing: 2px;
+ color: #02ccbb;
+ }
+ th {
+  letter-spacing: 2px;
+  line-height: 50px;
+ }
+ td {
+  letter-spacing: 2px;
+  line-height: 50px;
+ }
+ li {
+  line-height: 35px;
+ }
+ body {
+  background-image: url(images/istockphoto-1094922834-612x612.jpg);
+ }
+ ul {
+  list-style-image: url(images/goa\ \ image\ for\ ul.jpg);
+  list-style-position: inside;
+ }
+
+ 
+ .box {
+  width: 200px;
+  height: 200px;
+  background-color: #202bca;
+  transition: .5s;
+  cursor: crosshair;
+ }
+ .box:hover {
+  background-color: rgb(157, 255, 0);
+  border-radius: 30%;
+ }
+ 
